@@ -15,10 +15,11 @@ void FillArray(int[] arr)
 
 void PrintArray(int[] arr)
 {
+    Console.Write("[");
     for (int i = 0; i < arr.Length; i++)
     {
         if (i < arr.Length - 1) Console.Write($"{arr[i]}, ");
-        else Console.WriteLine(arr[i]);
+        else Console.WriteLine($"{arr[i]}]");
     }
 }
 
